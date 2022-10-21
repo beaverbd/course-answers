@@ -6,6 +6,6 @@ public static class Program
     public static void Main(string[] args)
     {
         var firstTaskSolution = new FirstTaskSolution();
-        firstTaskSolution.ResolveWithLinq(Constants.Numbers.ToList());
+        firstTaskSolution.Resolve(Constants.Numbers.ToList());
     }
 }

@@ -2,7 +2,7 @@
 {
     internal class FirstTaskSolution
     {
-        public void ResolveWithLinq(List<int> numbers)
+        public void Resolve(List<int> numbers)
         {
             Console.WriteLine($"First task:");
             Console.WriteLine($"Remove all items divided by the first number of the list");
@@ -22,6 +22,7 @@
 
         /// * суть в том, что после удаления элемента, например первого, теперь на его место стал второй элемент списка.
         /// и если не вернуть индекс назад, на следующем заходе цикла, мы будем проверять уже второй элемент и пропустим ~новый~ первый, который раньше был вторым
+        /// Другой вариант как это сделать - как говорил Олег, идти с конца списка, тогда не надо будет лишний раз сдвигать индекс
 
     }
 }
