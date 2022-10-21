@@ -11,7 +11,7 @@
             var firstNumber = numbers.First();
             Console.WriteLine($"First number: {firstNumber}");
 
-            for (var i = 0; i < numbers.Count; i++)
+            for (int i = 0; i < numbers.Count; i++)
             {
                 if (numbers[i] % firstNumber == 0)
                     numbers.RemoveAt(i--); // стоит обратить внимание, что после удаления элемента, мы должны вернуть индекс назад *

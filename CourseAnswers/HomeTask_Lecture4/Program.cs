@@ -7,5 +7,8 @@ public static class Program
     {
         var firstTaskSolution = new FirstTaskSolution();
         firstTaskSolution.Resolve(Constants.Numbers.ToList());
+
+        var secondTaskSolution = new SecondTaskSolution();
+        secondTaskSolution.Resolve(Constants.Numbers.ToList());
     }
 }
